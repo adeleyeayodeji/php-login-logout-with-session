@@ -1,27 +1,11 @@
-# More details
-
-Developing a simple authentication in PHP using procedure method along with user session and data sharing within pages.
-
-Watch till end to understand the basic of PHP Authentication System
-
-#PHP_LOGIN_SYSTEM
-#PHP_AUTH
-
-# Youtube URL
-
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/e3L8NFUMHEE/0.jpg)](https://www.youtube.com/watch?v=e3L8NFUMHEE)
-
-# php-login-logout-with-session
-
-```php
-    <?php
+<?php
 // enable session
 session_start();
 
 $connection = mysqli_connect(
-    "localhost",
-    "root",
-    "",
+    "localhost", 
+    "root", 
+    "", 
     "php_login"
 );
 
@@ -57,7 +41,8 @@ if(isset($_POST["login"])){
     }else{
         echo "User not found";
     }
-
+   
 }
 ?>
-```
+<br>
+<a href="index.php">Back to page</a>
